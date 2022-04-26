@@ -51,6 +51,7 @@ function ratonLeave() {
 // 3.2 Párrafos: Cambia el color del texto y el de fondo por uno cualquiera.
 
 parrafo.addEventListener("mouseenter", parrafoColorIn);
+
 parrafo.addEventListener("mouseleave", parrafoColorOut);
 
 function parrafoColorIn() {
